@@ -1,6 +1,7 @@
 import ListGroup from "./Components/ListGroup";
 import Alert from "./Components/Alert";
 import Button from "./Components/Button";
+import Like from "./Components/Like";
 
 import { useState } from "react";
 
@@ -27,6 +28,7 @@ function App() {
       </Button>
       <p>
         <br></br>
+        <Like onClick={() => console.log("clicked")} />
       </p>
     </div>
   );
