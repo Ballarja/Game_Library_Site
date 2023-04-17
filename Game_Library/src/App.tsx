@@ -1,6 +1,7 @@
 import ListGroup from "./Components/ListGroup";
 import Alert from "./Components/Alert";
 import Button from "./Components/Button";
+import { BsFillCalendarFill } from "react-icons/bs";
 import { useState } from "react";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <p>
         <br></br>
       </p>
+      <BsFillCalendarFill color="red" size={40} />
     </div>
   );
 }
