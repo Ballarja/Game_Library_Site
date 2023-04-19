@@ -1,7 +1,7 @@
-
-function Message() {
-    const name = "James";
-    return <h1>Hello {name}</h1>;
-}
+const Message = () => {
+  let count = 0;
+  count++;
+  return <div>Message {count}</div>;
+};
 
 export default Message;
