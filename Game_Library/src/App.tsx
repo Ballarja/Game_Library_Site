@@ -1,18 +1,20 @@
 import { useState } from "react";
 
 function App() {
-  const [drink, setDrink] = useState({
-    title: "Americano",
-    price: 5,
+  const [game, setGame] = useState({
+    id: 1,
+    player: {
+      name: "John",
+    }
   });
 
   const handleClick = () => {
-    setDrink({ ...drink, price: 6 });
+    setGame({ ...game, player.name: "Jim" });
   };
 
   return (
     <div>
-      {drink.price}
+      {player.name}
       <button onClick={handleClick}>Click Me</button>
     </div>
   );
