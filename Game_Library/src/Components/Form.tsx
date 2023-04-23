@@ -3,7 +3,7 @@ import React, { FormEvent } from "react";
 const Form = () => {
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    console.log("Submitted");
+    console.log("Button Clicked");
   };
 
   return (
