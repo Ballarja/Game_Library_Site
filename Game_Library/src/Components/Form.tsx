@@ -1,6 +1,7 @@
 import React, { FormEvent } from "react";
 
 const Form = () => {
+  //created handleSubmit function to handle click event
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
     console.log("Button Clicked");
